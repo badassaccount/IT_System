@@ -6,8 +6,8 @@
     </x-slot>
     <div class="flex-col">
         <div class="py-3">
-            <div class="mx-auto sm:px-6 lg:px-8">
-                <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-xl sm:rounded-lg">
+            <div class="mx-auto">
+                <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-xl">
                     <x-inv-crumbs/>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 <!-- component -->
-<section class="container px-4 mx-auto">
+<section class="container px-4 py-4 mx-auto">
     <div class="sm:flex sm:items-center sm:justify-between">
         <div>
             <div class="flex items-center gap-x-3">

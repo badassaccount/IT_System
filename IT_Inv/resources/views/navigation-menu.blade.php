@@ -1,4 +1,4 @@
-<nav class="flex flex-col grid px-[10px] gap-x-[10px] items-start justify-between content-start w-[90px] h-screen bg-[#171923]">
+<nav class="flex flex-col grid px-[10px] gap-x-[10px] items-start justify-between content-start w-[90px] h-screen bg-[#171923] ">
   <div class="flex flex-col grid gap-y-15 items-center justify-start w-[70px] h-[226px]">
       <x-logo class="relative w-[40px] h-[34px]" />
       <div class="flex grid gap-[10px] items-center justify-center w-[70px] h-[60px]">

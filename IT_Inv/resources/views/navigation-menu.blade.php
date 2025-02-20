@@ -1,8 +1,7 @@
-<nav class="flex flex-col grid py-[30px] px-[10px] gap-x-[10px] items-start justify-between content-start w-[90px] h-[1340px] bg-[#171923]">
+<nav class="flex flex-col grid px-[10px] gap-x-[10px] items-start justify-between content-start w-[90px] h-screen bg-[#171923]">
   <div class="flex flex-col grid gap-y-15 items-center justify-start w-[70px] h-[226px]">
       <x-logo class="relative w-[40px] h-[34px]" />
-    <div class="flex flex-col grid gap-[30px] items-start justify-start w-[70px] h-[132px]">
-      <div class="flex grid gap-[10px] items-center justify-center w-[70px] h-[24px]">
+      <div class="flex grid gap-[10px] items-center justify-center w-[70px] h-[60px]">
         <div class="relative size-[24px]">
           <div class="absolute size-[8px]"></div>
           <div class="absolute w-[12px] h-[9px]"></div>
@@ -10,7 +9,7 @@
      </div>
      {{-- Dashboard --}}
       <div class="flex grid gap-[10px] items-center justify-center w-[70px] h-[60px] fill-white">
-        <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')" class="h-16 px-6 items-center text-white bg-teal-700 w-full">
+        <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')" class="h-16 px-6 items-center text-white w-full">
           <i class="mx-auto">
             <svg
             class="fill-current h-5 w-5 fill-white"
@@ -28,7 +27,7 @@
      {{-- Inventory --}}
       <div class="flex grid gap-[10px] items-center justify-center w-[70px] h-[60px] fill-white">
         
-        <x-nav-link href="{{ route('inventory') }}" :active="request()->routeIs('inventory')" class="h-16 px-6 flex items-center text-white bg-teal-700 w-full">
+        <x-nav-link href="{{ route('inventory') }}" :active="request()->routeIs('inventory')" class="h-16 px-6 flex items-center text-white w-full">
           <i class="mx-auto">
             <svg
             class="fill-current h-5 w-5 fill-white"
@@ -43,10 +42,8 @@
           </svg>
           </i>
       </x-nav-link>
-
-
      </div>
-     {{-- Reporting --}}
+     {{-- Tickets --}}
      <div class="flex grid gap-[10px] items-center justify-center w-[70px] h-[60px] fill-white">
       <div class="relative size-[24px]">
         <svg
@@ -61,8 +58,6 @@
       />
         </svg>
      </div>
-   </div>
-   </div>
  </div>
   <div class="flex flex-col grid gap-5 items-start justify-start w-[70px] h-[94px]">
     <div class="flex grid gap-x-[10px] items-center justify-center w-[70px] h-[30px]">

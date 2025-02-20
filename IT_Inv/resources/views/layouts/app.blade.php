@@ -17,37 +17,31 @@
         <!-- Styles -->
         @livewireStyles
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased h-full">
         <x-banner />
 
         <div class="h-full w-full flex overflow-hidden antialiased text-gray-800 bg-white">
             @livewire('navigation-menu')
 
-
             <!-- Page Content -->
-            <div class="flex-1 flex flex-col">
-            @livewire('navigation-top')
-            <!-- Page Heading -->
-             @if (isset($header))
-                <header aria-label="page caption" class="flex-none flex h-16 bg-gray-100 border-t px-4 items-center">
-                    <div class="max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
-                    </div>
-                </header>
-            @endif
-                <main>
+            <div class="flex-1 flex flex-col h-full">
+                @livewire('navigation-top')
+                <!-- Page Heading -->
+                @if (isset($header))
+                    <header aria-label="page caption" class="flex-none flex h-16 bg-gray-100 border-t px-4 items-center">
+                        <div class="max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
+                            {{ $header }}
+                        </div>
+                    </header>
+                @endif
+                <main class="flex-1">
                     {{ $slot }}
                 </main>
             </div>
-
         </div>
-
 
         @stack('modals')
 
         @livewireScripts
     </body>
 </html>
-
-{{-- TODO: make navigation side bar and icons fix even when scrolling it will stick to 
-the screen --}}

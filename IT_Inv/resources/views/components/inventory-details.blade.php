@@ -1,61 +1,39 @@
 <!-- component -->
 <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-xl">
 
-
-    <div class="relative overflow-x-auto">
-        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                <tr>
-                    <th  scope="colgroup" class="px-6 py-3">
-                        Computer Details
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                       Name:
-                    </th>
-                    <td class="px-6 py-4">
-                        Silver
-                    </td>
-                    <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                        IP Address:
-                    </td>
-                    <td class="px-6 py-4">
-                        $2999
-                    </td>
-                </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                        User:
-                    </th>
-                    <td class="px-6 py-4">
-                        White
-                    </td>
-                    <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                        Mac Address:
-                    </td>
-                    <td class="px-6 py-4">
-                        $1999
-                    </td>
-                </tr>
-                <tr class="bg-white dark:bg-gray-800">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                        Description:
-                    </th>
-                    <td class="px-6 py-4">
-                        Black
-                    </td>
-                    <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                        Computer Domain:
-                    </td>
-                    <td class="px-6 py-4">
-                        $99
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="grid grid-cols-4 gap-4 auto-rows-auto text-sm">
+        <div class="col-span-4 text-xs uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 py-3 px-6">
+          COMPUTER DETAILS
+        </div>
+        <div class="text-white py-3 px-6 break-words flex items-center">Name:</div>
+        <div class="text-white py-3 px-6 break-words text-center text-gray-500 dark:text-gray-400 flex items-center">Silver</div>
+        <div class="text-white py-3 px-6 break-words flex items-center">IP Address:</div>
+        <div class="text-white py-3 px-6 break-words text-center text-gray-500 dark:text-gray-400 flex items-center">192.168.1.1</div>
+        <div class="text-white py-3 px-6 break-words flex items-center">User:</div>
+        <div class="text-white py-3 px-6 break-words text-center text-gray-500 dark:text-gray-400 flex items-center">White</div>
+        <div class="text-white py-3 px-6 break-words flex items-center">Mac Address:</div>
+        <div class="text-white py-3 px-6 break-words text-center text-gray-500 dark:text-gray-400 flex items-center">e2:3f:13:d4:34</div>
+        <div class="text-white py-3 px-6 break-words flex items-center">Description:</div>
+        <div class="text-white py-3 px-6 break-words text-center text-gray-500 dark:text-gray-400 flex items-center">Black</div>
+        <div class="text-white py-3 px-6 break-words flex items-center">Computer Domain:</div>
+        <div class="text-white py-3 px-6 break-words text-center text-gray-500 dark:text-gray-400 flex items-center">WORKGROUP</div>
     </div>
-    
+</div>
+
+ <div class="grid grid-cols-4 gap-4 auto-rows-auto text-sm">
+    <div class="col-span-4 text-xs uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 py-3 px-6">
+      COMPUTER DETAILS
+    </div>
+    <div class="text-white py-3 px-6 break-words flex items-center">Name:</div>
+    <div class="text-white py-3 px-6 break-words text-center text-gray-500 dark:text-gray-400 flex items-center">Silver</div>
+    <div class="text-white py-3 px-6 break-words flex items-center">IP Address:</div>
+    <div class="text-white py-3 px-6 break-words text-center text-gray-500 dark:text-gray-400 flex items-center">192.168.1.1</div>
+    <div class="text-white py-3 px-6 break-words flex items-center">User:</div>
+    <div class="text-white py-3 px-6 break-words text-center text-gray-500 dark:text-gray-400 flex items-center">White</div>
+    <div class="text-white py-3 px-6 break-words flex items-center">Mac Address:</div>
+    <div class="text-white py-3 px-6 break-words text-center text-gray-500 dark:text-gray-400 flex items-center">e2:3f:13:d4:34</div>
+    <div class="text-white py-3 px-6 break-words flex items-center">Description:</div>
+    <div class="text-white py-3 px-6 break-words text-center text-gray-500 dark:text-gray-400 flex items-center">Black</div>
+    <div class="text-white py-3 px-6 break-words flex items-center">Computer Domain:</div>
+    <div class="text-white py-3 px-6 break-words text-center text-gray-500 dark:text-gray-400 flex items-center">WORKGROUP</div>
 </div>

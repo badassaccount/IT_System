@@ -4,19 +4,10 @@
             {{ __('Inventory') }}
         </h2>
     </x-slot>
-    <div class="flex-col">
-        <div class="py-3">
-            <div class="mx-auto px-6 lg:px-8">
-                <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-xl rounded sm py-2">
-                    <x-inv-crumbs/>
-                </div>
-            </div>
-        </div>
-
         <div class="py-1">
             <div class="mx-auto sm:px-6 lg:px-8">
                 <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-xl sm:rounded-lg">
-                    <x-inventory-details/>
+                    <x-inventory-add/>
                 </div>
             </div>
         </div>

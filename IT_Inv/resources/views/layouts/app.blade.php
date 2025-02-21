@@ -22,7 +22,9 @@
 
         <div class="h-full w-full flex overflow-hidden antialiased text-gray-800 bg-white">
             @livewire('navigation-menu')
+            <div class=" w-[70px] h-screen">
 
+            </div>
             <!-- Page Content -->
             <div class="flex-1 flex flex-col h-full">
                 @livewire('navigation-top')

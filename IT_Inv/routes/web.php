@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\InventoryController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -12,6 +13,7 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
+    //Pages
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
@@ -23,5 +25,8 @@ Route::middleware([
     Route::get('/tickets', function () {
         return view('tickets');
     })->name('tickets');
+
+    //Inventory related routes
+    Route::post('/addInventory', [InventoryController::class, 'addInventory']);
 });
 

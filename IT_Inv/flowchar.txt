@@ -1,0 +1,11 @@
+Inventory
+
+HIGH PRIORITY
+Add Inventory
+Stock Disposal
+Purchase Order
+
+
+NORMAL PRIORITY
+Stock Requisition
+Stock Transfer
